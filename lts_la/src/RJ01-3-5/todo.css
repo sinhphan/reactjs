@@ -1,0 +1,9 @@
+
+.todo {
+    width: 70%;
+    margin: 50px auto;
+  }
+  .todo__list span{
+    padding: 8px;
+    cursor: pointer;
+  }
