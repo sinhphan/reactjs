@@ -1,0 +1,30 @@
+
+/* -------------------------------------------------------------------------- */
+/*                               stop Watch css                               */
+/* -------------------------------------------------------------------------- */
+
+.stopwatch-wrap .stopwatch{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #333;
+  }
+  .stopwatch-wrap .control-button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: 30px auto;
+  }
+  
+  .stopwatch-wrap .control-button button{
+    padding: 8px 24px;
+    color: #fff;
+    background-color:dodgerblue;
+    border-radius: 5px;
+  }
+  
+  .stopwatch-wrap .control-button button:disabled{
+    background-color: darkgray;
+  }

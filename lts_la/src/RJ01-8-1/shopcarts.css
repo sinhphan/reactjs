@@ -1,0 +1,45 @@
+.shopcarts-wrap {
+    margin: 100px auto;
+    width: 50%;
+}
+
+.shopcarts-wrap #add-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.shopcarts-wrap button, .shopcarts-wrap #add-form input, .shopcarts-wrap p span{
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.shopcarts-wrap button{
+    padding: 8px 24px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: none; 
+}
+
+.shopcarts-wrap p{
+    margin: 34px 0px;
+}
+
+.shopcarts-wrap p span{
+    border: 1px solid #333;
+}
+
+.shopcarts-wrap ul{
+    padding: 0;
+}
+
+.shopcarts-wrap li{
+    list-style-type: none;
+    border: 1px solid #333;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+}
+
