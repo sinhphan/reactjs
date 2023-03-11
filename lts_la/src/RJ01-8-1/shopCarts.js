@@ -14,6 +14,7 @@ export default function ShopCarts(){
     const [totalPrice, setTotalPrice] = useState(0)
 
     const handleAddProduct = (e)=>{
+        e.preventDefault()
         const sumitedform = e.target
         const product = {
             name : sumitedform.nameprd.value,

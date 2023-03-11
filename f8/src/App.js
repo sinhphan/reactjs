@@ -6,6 +6,8 @@ import { useState } from 'react';
 import ChangeAvatar from './useEffect/cleanUpUse';
 import FakeChatApp from './useEffect/fakeChatApp';
 import ProductsCart from './useMemo/useMemo';
+import ToDoReducer from './useReducer/userReducer';
+import TestContext from './context';
 
 function App() {
   const [show,setShow] = useState(false)
@@ -29,8 +31,19 @@ function App() {
       {/* -------------------------------------------------------------------------- */
       /*                            Component of useMemo                              */
       /* -------------------------------------------------------------------------- */}
-      {show && <ProductsCart />}
+      {/* {show && <ProductsCart />} */}
+
+
+      {/* -------------------------------------------------------------------------- */
+      /*                           component of useReducer                          */
+      /* -------------------------------------------------------------------------- */}
+        {/* {show && <ToDoReducer/> } */}
       
+
+      {/* -------------------------------------------------------------------------- */
+      /*                            Test Context of react                           */
+      /* -------------------------------------------------------------------------- */}
+      <TestContext />
     </div>
   );
 }
