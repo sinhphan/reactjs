@@ -1,0 +1,17 @@
+.todos-wrap{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.todos-form input,button{
+    padding: 8px 16px;
+    margin: 0 16px;
+}
+
+.todos-wrap button{
+    cursor: pointer;
+}
+
+.todos-wrap li{
+    margin: 8px 0;
+}
